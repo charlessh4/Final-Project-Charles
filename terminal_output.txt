@@ -1,0 +1,4 @@
+Batter Stats: Enter 1
+ Pitcher Stats: Enter 2
+ Team Stats: Enter 3
+ Division Stats: Enter 4
