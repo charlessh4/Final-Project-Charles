@@ -1,7 +1,7 @@
 import sys
 from classes import *
-#file_out = open('terminal_output.txt','w')
-#sys.stdout = file_out
+file_out = open('terminal_output.txt','w')
+sys.stdout = file_out
 import csv
 with open('mlb-player-stats-Batters.csv', 'r') as csvFile:
     readerNames = csv.reader(csvFile)
@@ -22,9 +22,9 @@ while typeOfStat != 5:
     if(typeOfStat == 1): #Batting stats
         foundPlayer = -1
         print('Please enter the player you would like to analyze')
-        player = input()
+        player = input().lower()
         for i in batterNames:
-            if i == player:
+            if i.lower() == player:
                 foundPlayer = batterNames.index(i)
         if(foundPlayer == -1):
             print('Player not found please run again')
@@ -44,12 +44,14 @@ while typeOfStat != 5:
             print(requestedPLayer.getOnBasePercentage())
         elif (stat == 6):
             print(requestedPLayer.getSluggingPercentage())
-    if(typeOfStat == 2): #Pitcher Stats
+        else:
+            print('Invalid input please try again and enter one of the options described above')
+    elif(typeOfStat == 2): #Pitcher Stats
         foundPlayer = -1
         print('Please enter the player you would like to analyze')
-        player = input()
+        player = input().lower()
         for i in pitcherNames:
-            if i == player:
+            if i.lower()== player:
                 foundPlayer = pitcherNames.index(i)
         if(foundPlayer == -1):
             print('Player not found please run again')
@@ -63,12 +65,14 @@ while typeOfStat != 5:
             print(requestedPLayer.getERA())
         elif (stat == 3):
             print(requestedPLayer.getWins())
-    if(typeOfStat == 3): #Team Stats
+        else:
+            print('Invalid input please try again and enter one of the options described above')
+    elif(typeOfStat == 3): #Team Stats
         foundTeam = -1
         print('Please enter the team you would like to analyze')
-        requestedTeam = input()
+        requestedTeam = input().lower()
         for i in teams:
-            if i == requestedTeam:
+            if i.lower()== requestedTeam:
                 foundTeam = teams.index(i)
         if(foundTeam == -1):
             print('Team not found please run again')
@@ -82,12 +86,14 @@ while typeOfStat != 5:
             print(requestedTeam.getLosses())
         elif (stat == 3):
             print(requestedTeam.getWSWins())
-    if(typeOfStat == 4): #Division Stats
+        else:
+            print('Invalid input please try again and enter one of the options described above')
+    elif(typeOfStat == 4): #Division Stats
         foundDivision = -1
         print('Please enter the division you would like to analyze')
-        division= input()
+        division= input().lower()
         for i in divisions:
-            if i == division:
+            if i.lower()== division:
                 foundDivision = divisions.index(i)
         if(foundDivision == -1):
             print('Division not found please run again')
@@ -101,6 +107,11 @@ while typeOfStat != 5:
             print(requestedDivision.getLosses())
         elif (stat == 3):
             print(requestedDivision.getWSWins())
+        else:
+            print('Invalid input please try again and enter one of the options described above')
+    elif(typeOfStat > 5 or typeOfStat < 1): 
+        print('Invalid input please enter one of the options described above')
+    
 
 
 

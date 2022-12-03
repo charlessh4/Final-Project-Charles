@@ -6,3 +6,35 @@ Batter Stats: Enter 1
 Please enter the player you would like to analyze
 Which stat of theirs would you like?
  1: Hits, 2: At Bats, 3: Batting Average, 4: Strikeouts, 5: On Base Percentage, 6: Slugging ercentage
+72
+Batter Stats: Enter 1
+ Pitcher Stats: Enter 2
+ Team Stats: Enter 3
+ Division Stats: Enter 4
+ Exit: Enter 5
+Please enter the division you would like to analyze
+Which stat of theirs would you like?
+ 1: Wins, 2: Losses, 3: World Series Wins
+39
+Batter Stats: Enter 1
+ Pitcher Stats: Enter 2
+ Team Stats: Enter 3
+ Division Stats: Enter 4
+ Exit: Enter 5
+Invalid input please enter one of the options described above
+Batter Stats: Enter 1
+ Pitcher Stats: Enter 2
+ Team Stats: Enter 3
+ Division Stats: Enter 4
+ Exit: Enter 5
+Please enter the player you would like to analyze
+Which stat of theirs would you like?
+ 1: Strikeouts, 2: ERA (Earned Run Average), 3: Wins
+Invalid input please try again and enter one of the options described above
+Batter Stats: Enter 1
+ Pitcher Stats: Enter 2
+ Team Stats: Enter 3
+ Division Stats: Enter 4
+ Exit: Enter 5
+Please enter the player you would like to analyze
+Player not found please run again
