@@ -11,40 +11,73 @@ Batter Stats: Enter 1
  Team Stats: Enter 3
  Division Stats: Enter 4
  Exit: Enter 5
+1
 Please enter the player you would like to analyze
+Xander Bogaerts
 Which stat of theirs would you like?
  1: Hits, 2: At Bats, 3: Batting Average, 4: Strikeouts, 5: On Base Percentage, 6: Slugging ercentage
-72
+4
+118
 Batter Stats: Enter 1
  Pitcher Stats: Enter 2
  Team Stats: Enter 3
  Division Stats: Enter 4
  Exit: Enter 5
-Please enter the division you would like to analyze
+2
+Please enter the player you would like to analyze
+Chris Sale
+Which stat of theirs would you like?
+ 1: Strikeouts, 2: ERA (Earned Run Average), 3: Wins
+1
+5
+Batter Stats: Enter 1
+ Pitcher Stats: Enter 2
+ Team Stats: Enter 3
+ Division Stats: Enter 4
+ Exit: Enter 5
+3
+Please enter the team you would like to analyze
+Boston Red Sox
 Which stat of theirs would you like?
  1: Wins, 2: Losses, 3: World Series Wins
-39
+3
+9
 Batter Stats: Enter 1
  Pitcher Stats: Enter 2
  Team Stats: Enter 3
  Division Stats: Enter 4
  Exit: Enter 5
+4
+Please enter the division you would like to analyze
+NL Central
+Which stat of theirs would you like?
+ 1: Wins, 2: Losses, 3: World Series Wins
+1
+284
+Batter Stats: Enter 1
+ Pitcher Stats: Enter 2
+ Team Stats: Enter 3
+ Division Stats: Enter 4
+ Exit: Enter 5
+7
 Invalid input please enter one of the options described above
 Batter Stats: Enter 1
  Pitcher Stats: Enter 2
  Team Stats: Enter 3
  Division Stats: Enter 4
  Exit: Enter 5
-Please enter the player you would like to analyze
+3
+Please enter the team you would like to analyze
+Chicago White Sox
 Which stat of theirs would you like?
- 1: Strikeouts, 2: ERA (Earned Run Average), 3: Wins
+ 1: Wins, 2: Losses, 3: World Series Wins
+6
 Invalid input please try again and enter one of the options described above
 Batter Stats: Enter 1
  Pitcher Stats: Enter 2
  Team Stats: Enter 3
  Division Stats: Enter 4
  Exit: Enter 5
-Please enter the player you would like to analyze
-Player not found please run again
+5
 
 One feature that I would recommend in the future is past years stats of players and all time stats as then users could look at a much wider variety of stats. Another feature I would like to add is coach stats and more stats of player such as advanced statistics so that this can be a one stop program for any user that would like to know any stat of players, coaches, teams, and divisions quickly and easily.

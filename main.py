@@ -1,7 +1,7 @@
 import sys
 from classes import *
-file_out = open('terminal_output.txt','w')
-sys.stdout = file_out
+#file_out = open('terminal_output.txt','w')
+#sys.stdout = file_out
 import csv
 with open('mlb-player-stats-Batters.csv', 'r') as csvFile:
     readerNames = csv.reader(csvFile)

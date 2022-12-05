@@ -29,7 +29,7 @@ class Division(Team):
 #This class represents person and inherits the functions from coach while also having many unique functions
 class Batter:
     def __init__(self, i): #i represents where the player is located in the list
-        self.index = i+1 #Necessary due to titles for each column in csv
+        self.index = i #Necessary due to titles for each column in csv
         with open('mlb-player-stats-Batters.csv', 'r') as csvFile:
             readerNames = csv.reader(csvFile)
             self.atBats = [line[5] for line in readerNames]
@@ -59,7 +59,7 @@ class Batter:
         return self.sluggingPercentages[self.index]
 class Pitcher:
     def __init__(self, i):
-        self.index = i + 1 
+        self.index = i 
         with open('mlb-player-stats-P.csv', 'r') as csvFile:
             readerNames = csv.reader(csvFile)
             self.strikeOuts = [line[10] for line in readerNames]
