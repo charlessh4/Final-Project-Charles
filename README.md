@@ -6,6 +6,7 @@ The Team class creates three lists containing all stats for the team and gets an
 
 In order to use this program once runnning the terminal will specify what each integer will do and then the user is required to input one that is specified, if it is not one specified it will ask to enter one that is described. Then, once the object they want stats of is selected the user must input the specific object they would like so specific player, team, or division exactly spelled correctly (case does not matter). Then the program will ask for which stat the user would like by intputting an int of the specific stat they would like. Below is a sample code of displaying the functions of the program.
 
+```
 Batter Stats: Enter 1
  Pitcher Stats: Enter 2
  Team Stats: Enter 3
@@ -79,5 +80,6 @@ Batter Stats: Enter 1
  Division Stats: Enter 4
  Exit: Enter 5
 5
+```
 
 One feature that I would recommend in the future is past years stats of players and all time stats as then users could look at a much wider variety of stats. Another feature I would like to add is coach stats and more stats of player such as advanced statistics so that this can be a one stop program for any user that would like to know any stat of players, coaches, teams, and divisions quickly and easily.
